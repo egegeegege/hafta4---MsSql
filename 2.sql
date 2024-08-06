@@ -22,7 +22,7 @@ select OrderID,ShipCountry,OrderDate,'KDV Durumu'=
 case
 	when ShipCountry in('France') then 18
 	when ShipCountry in('Germany') then 17
-	when ShipCountry in('Brazil') then 16
+	when ShipCountry in('Brazil') then 30
 	else 20 -- geri kalan tüm koþullar için
 end
 from Orders
