@@ -28,6 +28,10 @@ where Employees.EmployeeID = Orders.EmployeeID
 select e.FirstName,e.LastName,o.OrderDate,o.Freight from Employees e
 inner join Orders o
 on e.EmployeeID = o.EmployeeID
+
+select e.FirstName,e.LastName,o.OrderDate,o.Freight from Employees e
+inner join Orders o
+on e.EmployeeID = o.EmployeeID
 -- left join
 select e.FirstName,e.LastName,o.OrderDate,o.Freight from Employees e
 left join Orders o

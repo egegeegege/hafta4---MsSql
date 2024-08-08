@@ -29,6 +29,7 @@ begin
 end
 
 insert into Employees (FirstName,LastName) values ('Tahsin','Canpolat')
+select FirstName,LastName from Employees
 
 create table EmployeeCount(
 	ID int primary key identity(1,1),
